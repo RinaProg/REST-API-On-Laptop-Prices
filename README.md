@@ -10,7 +10,9 @@ When we send a request to the API, it will specify an HTTP method and a path.
 To make a request, at first we have to choose that particular HTTP method and the endpoint for this operation that we want to use.
 For example, `"../lap/getall"` this operation uses the GET method and returns a json response.
 
-### LAPTOP ITMES : The items are contained within the [laptopdata] file.
+### LAPTOP ITMES :
+The items are contained within the `laptopdata` file.
+
 ## RUN THE APP(Virtual Environment): 
 ``` 
  $env:FLASK_DEBUG=1
