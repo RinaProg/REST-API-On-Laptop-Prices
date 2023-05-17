@@ -27,20 +27,20 @@ Werkzeug 2.2.2
 ```
 ## ROOT AND ENDPOINTS :
 ```
-GET 	 -> 	http://127.0.0.1:5000/
-GET 	 -> 	http://127.0.0.1:5000/lap/getall
-POST	 ->	http://127.0.0.1:5000/lap/addone
-PUT	  ->	http://127.0.0.1:5000/lap/update
-PATCH	->	http://127.0.0.1:5000/lap/patch/<id>                   
-DEL	  ->	http://127.0.0.1:5000/lap/delete/<id>
-GET 	 ->	http://127.0.0.1:5000/lap/getall/limit/<limit>/page/<pno>
-GET	  ->	http://127.0.0.1:5000/lap/pricerange/p1/<p1>/p2/<p2> 
-POST  ->	http://127.0.0.1:5000/lap/login/user
+GET 	 ->     	http://127.0.0.1:5000/
+GET 	 -> 	    http://127.0.0.1:5000/lap/getall
+POST	 ->	     http://127.0.0.1:5000/lap/addone
+PUT	  ->     	http://127.0.0.1:5000/lap/update
+PATCH	->	     http://127.0.0.1:5000/lap/patch/<id>                   
+DEL	  ->     	http://127.0.0.1:5000/lap/delete/<id>
+GET 	 ->     	http://127.0.0.1:5000/lap/getall/limit/<limit>/page/<pno>
+GET	  ->	     http://127.0.0.1:5000/lap/pricerange/p1/<p1>/p2/<p2> 
+POST  ->	     http://127.0.0.1:5000/lap/login/user
 ```
 ## HTTP VERBS :
 | Verb          | Description   | 
 | ------------- |:-------------:| 
-|  GET	        |n this particular project it is used to retrieves all resources `..lap/getall`, with filter                                         `..lap/pricerange/p1/<p1>/p2/<p2>` and pagination `..lap/getall/limit/<limit>/page/<pno>`|  
+|  GET	        |In this particular project it is used to retrieves all resources `..lap/getall`, with filter                                         `..lap/pricerange/p1/<p1>/p2/<p2>` and pagination `..lap/getall/limit/<limit>/page/<pno>`|  
 |  POST         |  |  |
 |  PUT          |  |  |
 |  PATCH	      |  |  |
