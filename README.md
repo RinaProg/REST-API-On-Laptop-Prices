@@ -79,4 +79,4 @@ def login_user_model(self,data):
         jwtoken=jwt.encode(payload,"",algorithm="HS256")     #Hide "secret key"
         return make_response({"token":jwtoken},200)
 ```
-## 
+## JSON TYPE RESPONSES EXAMPLES :
