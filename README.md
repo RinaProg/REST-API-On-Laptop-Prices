@@ -80,3 +80,11 @@ def login_user_model(self,data):
         return make_response({"token":jwtoken},200)
 ```
 ## JSON TYPE RESPONSES EXAMPLES :
+
+
+## TECHNOLOGY USED :
+<p><img src="https://github.com/RinaProg/REST-API-On-Laptop-Prices/assets/122221586/92aea0fd-d503-469d-9d60-030dbe044936" width="70" height="70">&nbsp;&nbsp;
+<img src="https://github.com/RinaProg/REST-API-On-Laptop-Prices/assets/122221586/eb5bca2d-3325-4554-9ee2-a3e45cffb325" width="70" height="70">&nbsp;&nbsp;
+<img src="https://w1.pngwing.com/pngs/655/635/png-transparent-text-jar-json-zip-text-file-ppt-filename-extension-directory.png" width="70" height="70">&nbsp;&nbsp;
+<img src="https://www.katk.dev/static/86f2f48b9b0dd900b4892f49f4bbab81/e4f06/logo.png" width="70" height="70">&nbsp;&nbsp;</p>
+
