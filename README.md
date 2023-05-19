@@ -1,4 +1,4 @@
-# {REST-API} On-Laptop-Prices
+# {REST-API} On-Laptop-Prices  <p><img src="https://lh3.googleusercontent.com/-XvJzhz3pfH0/XjYG_xWkESI/AAAAAAAAJ9c/AYlgAtRknEU2W5fMcFhQoL6rmO8EBtIDQCK8BGAsYHg/s0/2020-02-01.png" width="50" height="50" </p>
 Built in Python ,Framework Flask and Jwt Token Generate
 ## OVERVIEW :
 The API is generally RESTFUL and returns results in JSON. JSON formats are returned by the API.
@@ -89,3 +89,6 @@ def login_user_model(self,data):
 <img src="https://jwt.io/img/logo-asset.svg" width="70" height="70">&nbsp;&nbsp;
 <img src="https://www.katk.dev/static/86f2f48b9b0dd900b4892f49f4bbab81/e4f06/logo.png" width="70" height="70">&nbsp;&nbsp;</p>
 
+## TALK ABOUT :
+Thank you for visit here,i am still working on this api project(Token authentication and authorization) and after completing I will be commited it here.Hope you all like my documentation.
+😊 
