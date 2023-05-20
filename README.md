@@ -80,8 +80,127 @@ def login_user_model(self,data):
         return make_response({"token":jwtoken},200)
 ```
 ## JSON TYPE RESPONSES EXAMPLES :
-- METHOD : http://127.0.0.1:5000/lap/getall
-
+- METHOD : http://127.0.0.1:5000/lap/getall 
+```
+{
+  "payload": [
+    {
+      "company": "Apple",
+      "cpu": "Intel Core i5 1.8GHz",
+      "gpu": "Intel HD Graphics 6000",
+      "inches": 13.3,
+      "memory": "128GB Flash Storage",
+      "opsys": "macOS",
+      "p_id": 1,
+      "price": 47895.5234,
+      "ram": "8GB",
+      "screenresolution": "1440x900",
+      "typename": "Ultrabook",
+      "weight": "1.34kg"
+    },
+    {
+      "company": "hp",
+      "cpu": "Intel Core i5 7200U 2.5GHz",
+      "gpu": "Intel HD Graphics 620",
+      "inches": 15.6,
+      "memory": "256GB SSD",
+      "opsys": "No OS",
+      "p_id": 2,
+      "price": 30636.0,
+      "ram": "8GB",
+      "screenresolution": "Full HD 1920x1080",
+      "typename": "Notebook",
+      "weight": "1.86kg"
+    },
+    .....
+    .....
+```
+- METHOD : http://127.0.0.1:5000/lap/pricerange/p1/<p1>/p2/<p2> 
+```
+{
+  "filter_item": [
+    {
+      "company": "Apple",
+      "cpu": "Intel Core i5 1.8GHz",
+      "gpu": "Intel HD Graphics 6000",
+      "inches": 13.3,
+      "memory": "128GB Flash Storage",
+      "opsys": "macOS",
+      "p_id": 1,
+      "price": 47895.5234,
+      "ram": "8GB",
+      "screenresolution": "1440x900",
+      "typename": "Ultrabook",
+      "weight": "1.34kg"
+    },
+    {
+      "company": "hp",
+      "cpu": "Intel Core i5 7200U 2.5GHz",
+      "gpu": "Intel HD Graphics 620",
+      "inches": 15.6,
+      "memory": "256GB SSD",
+      "opsys": "No OS",
+      "p_id": 2,
+      "price": 30636.0,
+      "ram": "8GB",
+      "screenresolution": "Full HD 1920x1080",
+      "typename": "Notebook",
+      "weight": "1.86kg"
+    },
+    {
+      "company": "Acer",
+      "cpu": "AMD A9-Series 9420 3GHz",
+      "gpu": "AMD Radeon R5",
+      "inches": 15.6,
+      "memory": "500GB HDD",
+      "opsys": "Windows 10",
+      "p_id": 5,
+      "price": 21312.0,
+      "ram": "4GB",
+      "screenresolution": "1366x768",
+      "typename": "Notebook",
+      "weight": "2.1kg"
+    },
+  ]
+}
+```
+- METHOD : http://127.0.0.1:5000/lap/getall/limit/2/page/4 
+```
+ {
+  "page": 4,
+  "payload": [
+    {
+      "company": "Apple",
+      "cpu": "Intel Core i5 1.8GHz",
+      "gpu": "Intel HD Graphics 6000",
+      "inches": 13.3,
+      "memory": "256GB Flash Storage",
+      "opsys": "macOS",
+      "p_id": 7,
+      "price": 61735.5352,
+      "ram": "8GB",
+      "screenresolution": "1440x900",
+      "typename": "Ultrabook",
+      "weight": "1.34kg"
+    },
+    {
+      "company": "Asus",
+      "cpu": "Intel Core i7 8550U 1.8GHz",
+      "gpu": "Nvidia GeForce MX150",
+      "inches": 14.0,
+      "memory": "512GB SSD",
+      "opsys": "Windows 10",
+      "p_id": 8,
+      "price": 79653.6016,
+      "ram": "16GB",
+      "screenresolution": "Full HD 1920x1080",
+      "typename": "Ultrabook",
+      "weight": "1.3kg"
+    }
+  ],
+  "row_limit": 2
+}
+```
 ## TECHNOLOGY USED :
 <p><img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.png" width="70" height="70">&nbsp;&nbsp;
 <img src="https://github.com/RinaProg/REST-API-On-Laptop-Prices/assets/122221586/eb5bca2d-3325-4554-9ee2-a3e45cffb325" width="70" height="70">&nbsp;&nbsp;
