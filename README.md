@@ -80,7 +80,7 @@ def login_user_model(self,data):
         return make_response({"token":jwtoken},200)
 ```
 ## JSON TYPE RESPONSES EXAMPLES :
-
+- METHOD : http://127.0.0.1:5000/lap/getall
 
 ## TECHNOLOGY USED :
 <p><img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.png" width="70" height="70">&nbsp;&nbsp;
