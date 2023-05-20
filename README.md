@@ -115,7 +115,7 @@ def login_user_model(self,data):
     .....
     .....
 ```
-- METHOD : http://127.0.0.1:5000/lap/pricerange/p1/<p1>/p2/<p2> 
+- METHOD : http://127.0.0.1:5000/lap/pricerange/p1/20000/p2/50000
 ```
 {
   "filter_item": [
